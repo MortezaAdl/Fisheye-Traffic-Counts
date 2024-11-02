@@ -5,7 +5,7 @@ Created on Wed Oct 25 09:24:26 2023
 @author: adlm
 """
 
-from Counter.Intersection import ImgCX, ImageWidth, ImageHeight, FishEye
+from counter.Intersection import ImgCX, ImageWidth, ImageHeight, FishEye
 import numpy as np
 import sys
 from colorama import Fore
