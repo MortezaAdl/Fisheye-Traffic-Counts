@@ -268,11 +268,11 @@ class PTC:
             track.ClassifyTrajectory()
             track.Type = "Classifiable_Broken"
             #print("broken track. ID:", int(track.ID), " Trajectory:", track.Trajectory, " Exit_Zone:", track.Exit_Zone, " First_Frame:", track.Frames[0], "Current frame", track.Frames[-1])
-            plt.title("Trajectry: " + track.Trajectory +" / Probability: " + str(round(prob, 2)), fontsize=20)
-            plt.xticks([])
-            plt.yticks([])
-            plt.legend(fontsize=20)
-            plt.savefig(cwd + "/Counter/BrokenTracks/" + str(track.ID) + ".jpg")
+            #plt.title("Trajectry: " + track.Trajectory +" / Probability: " + str(round(prob, 2)), fontsize=20)
+            #plt.xticks([])
+            #plt.yticks([])
+            #plt.legend(fontsize=20)
+            #plt.savefig(cwd + "/Counter/BrokenTracks/" + str(track.ID) + ".jpg")
             # print("Trajectry class = ", self.Str[track.Trajectory], "with calss probability of ", round(prob, 2))
         else:
             track.Type = "UnClassifiable_Broken"
