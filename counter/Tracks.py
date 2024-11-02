@@ -5,7 +5,7 @@ Created on Mon Jul 11 10:15:25 2022
 @author: Morteza_Adl
 """
 import sys
-from Counter.Track import Track
+from counter.Track import Track
 import numpy as np 
 
 class Tracker:
