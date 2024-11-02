@@ -4,7 +4,7 @@ Created on Mon Jul 11 10:15:25 2022
 
 @author: Morteza_Adl
 """
-from Counter.Intersection import *
+from counter.Intersection import *
 import cv2
 
 
