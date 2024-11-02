@@ -15,7 +15,7 @@ from sklearn.cluster import KMeans, DBSCAN
 from scipy.spatial.distance import cdist
 from pickle import dump, load
 from scipy.signal import savgol_filter
-from Counter.Intersection import DeFishEye
+from counter.Intersection import DeFishEye
 from os import getcwd
 
 
