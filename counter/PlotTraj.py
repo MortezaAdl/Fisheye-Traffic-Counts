@@ -7,7 +7,7 @@ Created on Thu Aug  3 15:58:19 2023
 
 import cv2
 import os
-from Counter.Intersection import FishEye
+from counter.Intersection import FishEye
 from matplotlib import pyplot as plt
 from pickle import load
 import numpy as np
