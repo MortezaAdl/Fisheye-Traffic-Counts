@@ -7,10 +7,10 @@ Created on Tue Jul 12 11:12:40 2022
 import os
 import numpy as np
 import cv2
-from Counter.Tracks import Tracker
-from Counter.DataCollection import CollectData
-from Counter.Intersection import ZoneData
-from Counter.Clustering import TrajCluster, PTC
+from counter.Tracks import Tracker
+from counter.DataCollection import CollectData
+from counter.Intersection import ZoneData
+from counter.Clustering import TrajCluster, PTC
 
 
 class Surveillance:
