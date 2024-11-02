@@ -17,9 +17,9 @@ from utils.sort import *
 from PIL import ImageFont
 import csv
 import os
-from Counter.Vehicles import Surveillance
-from Counter.General import *
-from Counter.Intersection import ZoneData
+from counter.Vehicles import Surveillance
+from counter.General import *
+from counter.Intersection import ZoneData
 import datetime
 
 
