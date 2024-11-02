@@ -30,19 +30,19 @@ The algorithm can operate without prior training, but for improved accuracy in c
 
 On video:
 ``` shell
-python DTC.py --weights yolov7-e6e.pt --conf 0.25 --img-size 1280 --source inference/yourvideo.mp4 --LearnPatterns --TracksPerLane 50
+python DTC.py --weights yolov7-e6e.pt --conf 0.25 --no-trace --img-size 1280 --source inference/yourvideo.mp4 --LearnPatterns --TracksPerLane 50
 ```
 On image:
 ``` shell
-python DTC.py --weights yolov7-e6e.pt --conf 0.25 --img-size 1280 --source inference/images_folder --LearnPatterns --TracksPerLane 50
+python DTC.py --weights yolov7-e6e.pt --conf 0.25 --no-trace --img-size 1280 --source inference/images_folder --LearnPatterns --TracksPerLane 50
 ```
 
 # Inference
 On video:
 ``` shell
-python DTC.py --weights yolov7.pt --conf 0.25 --view-img --img-size 640 --source yourvideo.mp4
+python DTC.py --weights yolov7.pt --conf 0.25 --no-trace --view-img --img-size 640 --source yourvideo.mp4
 ```
 On image:
 ``` shell
-python DTC.py --weights yolov7.pt --conf 0.25 --view-img --img-size 640 --source inference/images_folder
+python DTC.py --weights yolov7.pt --conf 0.25 --no-trace --view-img --img-size 640 --source inference/images_folder
 ```
