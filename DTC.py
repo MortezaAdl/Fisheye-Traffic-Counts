@@ -117,7 +117,7 @@ def detect(save_img=False):
         
 
         # Apply NMS
-        pred = non_max_suppression(pred, opt.conf_thres, opt.iou_thres, classes=Classes, agnostic=opt.agnostic_nms)
+        pred = non_max_suppression(pred, opt.conf_thres, opt.iou_thres, classes=Classes, agnostic=True)
         
 
         # Apply Classifier
@@ -254,7 +254,6 @@ if __name__ == '__main__':
     parser.add_argument('--view-img', action='store_true', help='display results')
     parser.add_argument('--save-csv', action='store_true', help='save results to *.csv')
     parser.add_argument('--nosave', action='store_true', help='do not save images/videos')
-    parser.add_argument('--agnostic-nms', action='store_true', help='class-agnostic NMS')
     parser.add_argument('--augment', action='store_true', help='augmented inference')
     parser.add_argument('--update', action='store_true', help='update all models')
     parser.add_argument('--project', default='runs/detect', help='save results to project/name')
