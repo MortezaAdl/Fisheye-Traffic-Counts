@@ -33,11 +33,11 @@ The algorithm can operate without prior training, but for improved accuracy in c
 
 On video:
 ``` shell
-python DTC.py --weights yolov7e6e-fisheye.pt --conf 0.25 --no-trace --img-size 1280 --source inference/yourvideo.mp4 --LearnPatterns --TracksPerLane 50
+python DTC.py --weights yolov7e6e-fisheye.pt --conf 0.25 --no-trace --view-img --img-size 1280 --source inference/yourvideo.mp4 --LearnPatterns --TracksPerLane 50
 ```
 On image:
 ``` shell
-python DTC.py --weights yolov7e6e-fisheye.pt --conf 0.25 --no-trace --img-size 1280 --source inference/images_folder --LearnPatterns --TracksPerLane 50
+python DTC.py --weights yolov7e6e-fisheye.pt --conf 0.25 --no-trace --view-img --img-size 1280 --source inference/images_folder --LearnPatterns --TracksPerLane 50
 ```
 
 # Inference
