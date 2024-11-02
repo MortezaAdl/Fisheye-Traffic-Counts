@@ -43,7 +43,7 @@ python DTC.py --weights yolov7e6e-fisheye.pt --conf 0.25 --no-trace --img-size 1
 # Inference
 On video:
 ``` shell
-python DTC.py --weights yolov7-fisheye.pt --conf 0.25 --no-trace --view-img --img-size 640 --source yourvideo.mp4
+python DTC.py --weights yolov7-fisheye.pt --conf 0.25 --no-trace --view-img --img-size 640 --source inference/yourvideo.mp4
 ```
 On image:
 ``` shell
