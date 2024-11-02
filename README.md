@@ -21,7 +21,7 @@ Download the preferred fine-tuned yolov7 weights for fisheye images to the code 
 [`yolov7-fisheye.pt`](https://github.com/WongKinYiu/yolov7/releases/download/v0.1/yolov7.pt)
 [`yolov7e6e-fisheye.pt`](https://github.com/WongKinYiu/yolov7/releases/download/v0.1/yolov7-e6e.pt)
 
-You may want to see the fine-tuning technique used to re-train the wights here: [YOLOv7 ](https://github.com/MortezaAdl/Fine-tuned-YOLOv7-for-Fisheye). 
+You may want to see the fine-tuning technique used to re-train the wights here: [Fine-tuned-YOLOv7-for-Fisheye](https://github.com/MortezaAdl/Fine-tuned-YOLOv7-for-Fisheye). 
 
 # Configuration
 1. Run config.py and select one of the images from your overhead fisheye dataset to generate a cfg.txt file and define zones for the intersection. The sample configuration files are provided in the 'Counter/cfg' directory for the images in the 'inference/images' folder in this directory.
