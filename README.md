@@ -7,6 +7,7 @@ Implementation of paper - [Enhanced Vehicle Movement Counting at Intersections v
 
 
 https://github.com/user-attachments/assets/26ebceb1-7aab-4727-9450-9d5894e0246d
+Note: The algorithm automatically learns the movement patterns (black trajectories) by running in the training mode. 
 
 
 
