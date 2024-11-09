@@ -2,7 +2,7 @@
 
 A Vehicle Movement Counting System for Intersections Monitored by an Overhead Fisheye Camera
 
-Implementation of paper - [Enhanced Vehicle Movement Counting at Intersections via a Self-Learning Fisheye Camera System] [Link](https://ieeexplore.ieee.org/abstract/document/10542980)
+Implementation of paper - [Enhanced Vehicle Movement Counting at Intersections via a Self-Learning Fisheye Camera System] [Link](https://ieeexplore.ieee.org/abstract/document/10542980) with changes in the detection module. 
 
 
 
